@@ -54,7 +54,7 @@ class _Staet extends State<FirstPage> {
                         children: [
                           Text(users[ind]['name']),
                           Text(users[ind]['email']),
-                          Text(users[ind]['username'])
+                          Text(users[ind]['address']['geo']['lat'])
                         ],
                       ),
                     ),
